@@ -1,0 +1,51 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+  margin: 0 auto;
+  width: 960px;
+  padding: 1em 2em;
+}
+
+header h1.log{
+  font-family:"Open Sans","Myriad Pro",Arial,sans-serif;
+  font-weight:300;
+  font-size:3em;
+  color:#001c20;
+}
+
+div.wrap{
+  margin: 0 auto;
+  width: 960px;
+  min-height: 100%;
+  max-height: 100%;
+
+  overflow: hidden;
+  zoom: 1;
+
+}
+
+div.wrap main{
+  width: 760px;
+  float: left;
+}
+
+div.wrap aside{
+  width: 200px;
+  float: right;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  min-height: 70px;
+  bottom: 0;
+  background-color: #eee;
+}
+
+footer .copyright{
+  text-align: center;
+  color: #333;
+  line-height: 70px;
+}
